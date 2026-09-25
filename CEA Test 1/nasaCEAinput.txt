@@ -1,0 +1,32 @@
+
+100%
+### CEA analysis performed on Mon 27-Jul-2026 22:12:16
+
+# Problem Type: "Rocket" (Infinite Area Combustor) 
+
+prob case = NMR_Rocket_____2916 ro equilibrium    
+
+# Pressure (21 values):
+p,psia= 200, 210, 220, 230, 240, 250, 260, 270, 280, 290, 300, 310, 320, 330, 340, 350, 360, 370, 380, 390, 400
+# Chamber/Exit Pressure Ratio (10 values):
+pi/p= 13, 16, 19, 22, 25, 28, 31, 34, 37, 40
+
+# Oxidizer/Fuel Wt. ratio (21 values):
+o/f = 1.43, 1.53, 1.63, 1.73, 1.83, 1.93, 2.03, 2.13, 2.23, 2.33, 2.43, 2.53, 2.63, 2.73, 2.83, 2.93, 3.03, 3.13, 3.23, 3.33, 3.43
+
+# You selected the following fuels and oxidizers:
+reac
+fuel RP-1              wt%=100.0000 
+oxid O2(L)             wt%=100.0000 
+
+# You selected these options for output:
+# long version of output
+# Proportions of any products will be expressed as Mass Fractions.
+output massf
+# Heat will be expressed as siunits
+output siunits
+
+# Input prepared by this script:/var/www/sites/cearun/cgi-bin/CEARUN/prepareInputFile.cgi
+
+### IMPORTANT:  The following line is the end of your CEA input file!
+end
